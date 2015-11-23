@@ -7,7 +7,6 @@ gulp.task('scss', function(){
   .pipe(sass())
   .pipe(rename('styles.css'))
   .pipe(gulp.dest('client/dist/css'))
-   .pipe(browserSync.stream());
 });
 
 gulp.task('default', ['scss'], function () {
