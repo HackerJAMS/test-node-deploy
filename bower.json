@@ -1,0 +1,21 @@
+{
+  "name": "test-node-deploy",
+  "description": "Test Node Deploy",
+  "main": "index.js",
+  "authors": [
+    "Aaron Spafford <aaron.spafford@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/aspafford/test-node-deploy",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8"
+  }
+}
